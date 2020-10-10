@@ -2,7 +2,14 @@
 Existing family members are already setup in the program. The program can accept more family members and get the relationship.
 This can be done using specific commands which are mentioned in below section "Commands Accepted".
 
-### COMMANDS ACCEPTED
+### HOW TO RUN
+> python3 -m geektrust <file_name_with_path>
+
+### HOW TO DO A TEST RUN
+A sample test file is available along with the source code. This contains all the sample use cases given in the problem statement, along with ADD_SPOUSE command used with one success and with one failure case. To run this, enter the command-
+> python3 -m geektrust test_file.txt
+
+### COMMANDS ACCEPTED IN THE INPUT FILE
 1. ADD_CHILD        : Provide mother's name, person's name and person's gender.
 eg. : ADD_CHILD Alice Bhanu Female
 2. GET_RELATIONSHIP : Provide person's name and expected relationship.
@@ -12,15 +19,6 @@ eg. : ADD_SPOUSE Bhanu Charlie
 
 #### Note
 The commands should be provided in a separate file, which has to be given as an input argument while running the script. See the next section to run the script with input file.
-
-
-### HOW TO RUN
-> python3 -m geektrust <file_name_with_path>
-
-### HOW TO TEST THE CODE
-A sample test file is available along with the source code. This contains all the sample use cases given in the problem statement, along with ADD_SPOUSE command used with one success and with one failure case. To run this, enter the command-
-> python3 -m geektrust test_file.txt
-
 
 ### OUTPUT
 Output will be printed in the console for every input command in the given input file.
